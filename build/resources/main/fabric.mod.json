@@ -1,0 +1,26 @@
+{
+	"schemaVersion": 1,
+	"id": "nofog-ultimate",
+	"version": "1.0.0+mc26.3",
+	"name": "NoFog Ultimate",
+	"description": "Tired of fog ruining your view? This mod wipes out every type of fog in Minecraft, including distance haze, underwater murk, lava and Nether atmosphere, so you get crystal-clear visibility in every biome and dimension. One tiny download, and you'll never squint through the mist again.",
+	"authors": [
+		"Madcept"
+	],
+	"license": "MIT",
+	"icon": "assets/nofog-ultimate/icon.png",
+	"environment": "client",
+	"entrypoints": {
+		"client": [
+			"dev.madcept.nofogultimate.NoFogUltimateClient"
+		]
+	},
+	"mixins": [
+		"nofog-ultimate.mixins.json"
+	],
+	"depends": {
+		"fabricloader": ">=0.19.5",
+		"minecraft": "~26.3",
+		"java": ">=25"
+	}
+}
